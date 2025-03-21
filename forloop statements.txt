@@ -1,0 +1,223 @@
+1.write a p.p to print numbers o to 10.
+
+for x in range(11):
+ 
+  print(x)
+        
+ 
+out put :
+0
+
+1
+
+2
+
+3
+
+4
+
+5
+
+6
+
+7
+
+8
+
+9
+
+10
+
+
+
+=== Code Execution Successful ===
+
+2.write a p.p to print odd numbers from 0 to 30.
+
+for x in range(31):
+   
+ if x% 2!=0:
+     
+   print(x)
+
+out put:
+1
+
+3
+
+5
+
+7
+
+9
+
+11
+
+13
+
+15
+
+17
+
+19
+
+21
+
+23
+
+25
+
+27
+
+29
+
+
+
+=== Code Execution Successful ===
+
+3.write a p.p to print numbers from 20 to 1.
+
+for x in range(20,0,-1):
+   
+ print(x)
+
+out put:
+20
+
+19
+
+18
+
+17
+
+16
+
+15
+
+14
+
+13
+
+12
+
+11
+
+10
+
+9
+
+8
+
+7
+
+6
+
+5
+
+4
+
+3
+
+2
+
+
+1
+
+
+
+=== Code Execution Successful ===
+
+4.write a p.p to print numbers from 0 to 6 except 3and 5.
+
+for x in range(7):
+ 
+  if x!=3and x!=5:
+ 
+      print(x)
+
+
+ 
+     
+  
+out put:
+0
+
+1
+
+2
+
+4
+
+6
+
+
+===code Execution sucessful ===
+
+5. write a p.p to accept a list and print list elements and also find sum of list elements using for loop.
+
+list=eval(input("enter some list elements:"))
+
+sum=0
+
+for x in list:
+    
+print(x)
+    sum=sum+x
+  
+ print("the sum value is:",sum)
+  
+
+out out:
+enter some list elements:20,40,60,80,100
+20
+
+
+the sum value is: 20
+
+40
+the sum value is: 60
+
+60
+
+the sum value is: 120
+
+80
+
+the sum value is: 200
+
+100
+
+the sum value is: 300
+
+
+
+=== Code Execution Successful ==
+
+6. write a p.p to find those numbers are divisible by 7 and multiplication of 5 in between 1 to 200,using for loop.
+
+n=int(input("enter  a number"))
+for x in range(1,n+1):
+  
+  if x%7==0 and x%5==0:
+  
+      print(x)
+  
+
+out put:  
+enter  a number200
+
+35
+
+70
+
+105
+
+140
+
+175
+
+
+
+=== Code Execution Successful ===    
+        
+
